@@ -1,0 +1,22 @@
+{
+  "appId": "com.theeipay.app",
+  "appName": "Thee iPay",
+  "webDir": "www",
+  "server": {
+    "url": "https://theeipay.com",
+    "cleartext": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": false,
+      "backgroundColor": "#000000",
+      "showSpinner": false
+    },
+    "StatusBar": {
+      "overlaysWebView": false,
+      "style": "DARK",
+      "backgroundColor": "#000000"
+    }
+  }
+}
